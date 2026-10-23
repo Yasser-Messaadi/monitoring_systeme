@@ -4,4 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+sysinfo = "0.39"
 
+[[bin]]
+name = "info"
+path = "src/info.rs"
+
+[[bin]]
+name = "surveillance"
+path = "src/surveillance.rs"
